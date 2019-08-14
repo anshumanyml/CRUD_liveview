@@ -26,5 +26,6 @@ defmodule Myapp.Accounts.User do
     |> validate_format(:phone_number, @phone, message: "must be a valid number")
     |> validate_length(:phone_number, is: 10)
     |> unique_constraint(:email)
+    # |> unique_constraint(:email, name: :veil_users_email_username_index, message: "Duplicate Email")
   end
 end

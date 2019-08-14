@@ -11,6 +11,8 @@
     "phoenix_live_view": "file:../deps/phoenix_live_view"
   },
   "devDependencies": {
+    "mem": "^4.0.0",
+    "js-yaml": "^3.13.1",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.0",
